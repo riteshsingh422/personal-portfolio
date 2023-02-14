@@ -1,0 +1,342 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>Portfolio</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="png" href="images/icon3.png">
+ 	<script src="https://kit.fontawesome.com/e26d8f3c3e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="jquery.ripples-min.js"></script>
+ </head>
+ <body>
+ 	<div id="header">
+ 		<div class="container">
+ 			<nav>
+ 				<div class="logo">
+            PORTFO<span>LIO<i class="fa-solid fa-circle-small"></i></span>
+        </div>
+
+ 				<ul id="sidemenu">
+ 					<li><a href="index.html">Home</a></li>
+ 					<li><a href="#about">About</a></li>
+ 					<li><a href="#services">Services</a></li>
+ 					<li><a href="#portfolio">My Work</a></li>
+ 					<li><a href="#contact">Contact </a></li>
+ 					<i class="fas fa-times" onclick="closemenu()"></i>
+ 				</ul>
+ 				<i class="fas fa-bars" onclick="openmenu()"></i>
+ 			</nav>
+ 			<div class="header-text">
+ 				
+ 				<h1>Hi, I'm <span>Ritesh Singh </span><br>From,<h5>India</h5></h1>
+                <h3><span class="auto-type"></span></h1>
+ 			</div>
+            <a href="images/ritesh cv.pdf" target="_blank" download class="btn btn2">Download CV</a>
+ 		</div>
+ 	</div>
+<!--------------ABOUT--------------->
+
+ 	<div id="about">
+ 		<div class="container">
+ 			<div class="row">
+
+
+    
+ 				<div class="box">
+        <div class="content">
+           
+        </div>
+    </div>
+    
+
+    
+ 				<div class="about-col-2">
+ 					<h1 class="sub-title">About Me</h1>
+ 					<p>
+ 						 I am recently pursuing bachelor of technology in Information Technology. I am looking for a challenging role in a forward-thinking company where I can use my skills and knowledge to make a difference. I am a motivated individual who is always looking to learn new things and take on new challenges. In my spare time, I enjoy listening songs , and enhanching my tech knowledge form different - different platforms.
+ 					</p>
+
+ 					<div class="tab-titles">
+ 						<p class="tab-links active-link" onclick="opentab('skills')">Skill's</p>
+ 						<p class="tab-links" onclick="opentab('achievements')">Achievement's</p>
+ 						<p class="tab-links" onclick="opentab('education')">Education</p>
+ 					</div>
+
+ 					<div class="tab-contents active-tab" id="skills">
+ 						<ul>
+ 							<li><span>JAVA PROGRAMMING</span><br>ADVANCED</li>
+ 							<li><span>C PROGRAMMING</span><br>BASIC</li>
+                            <li><span>WEB DEVELOPMENT</span><br>INTERMEDIATE</li>
+                            
+ 							
+ 							
+ 						</ul>
+ 					</div>
+
+
+ 					<div class="tab-contents" id="achievements">
+ 						<ul>
+ 							<li>GeeksforGeeks Practice :- Rank 5 in Institute among 1900 students<br><br></li>
+ 							<li>500+ Problem Solved on GeeksforGeeks<br><br></li>
+ 							<li>5 Star In JAVA On HackerRank.<br></li>
+ 							
+ 							
+ 						</ul>
+ 					</div>
+
+
+ 					<div class="tab-contents" id="education">
+ 						<ul>
+                            <li><span>2021 - 2024</span><br>B.tech From Asansol Engineering College <br> <br></li>
+                            <li><span>2018 - 2021</span><br>Diploma From Dr. B.c. Roy Polytechnic <br><br></li>
+ 							<li><span>2018</span><br>10th from Dav Public School <br></li>
+ 							
+ 							
+ 							
+ 						</ul>
+ 					</div>
+
+
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+ 	<!--------------INTEREST--------------->
+
+ 	<div id="services">
+ 		<div class="container">
+ 			<h1 class="sub-title">MY INTEREST</h1>
+ 			<div class="services-list">
+ 				<div>
+ 					<i class="fa-solid fa-code"></i> 					
+                    <h2>COMPETITIVE PROGRAMMING</h2>
+ 					<p>Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications. Contestants are referred to as sport programmers.</p>
+ 					<a href="https://auth.geeksforgeeks.org/user/riteshsingh07" target="_blank">CLICK HERE</a>
+ 				</div>
+
+ 				
+
+ 
+                <div>
+                   <i class="fa-solid fa-computer"></i>                    
+                    <h2>WEB DEVELOPMENT</h2>
+                    <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services</p>
+                    <a href="https://snakemaniagaming.netlify.app/" target="_blank">CLICK HERE</a>
+                </div>
+
+
+
+
+                <div>
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h2>GYMING</h2>
+                    <p>“To keep the body in good health is a duty… otherwise we shall not be able to keep our mind strong and clear.” “When it comes to eating right and exercising, there is no 'I'll start tomorrow'.”</p>
+                    <a href="#">CLICK HERE</a>
+                </div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+ 	<!----------MY WORK--------->
+
+ 	<div id="portfolio">
+ 		<div class="container">
+ 			<h1 class="sub-title">My Work</h1>
+ 			<div class="work-list">
+ 				
+
+ 				<div class="work">
+ 					<img src="images/trans.jpg">
+ 					<div class="layer">
+ 						<h3>TRANSLATOR APP</h3>
+ 						<p>A Language Translator App in HTML CSS & JavaScript. This app is similar to Google Translate. In this app, users can easily translate text into multiple languages, copy translated text, and convert text to speech.</p>
+ 						<a href="" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+ 					</div>
+ 				</div>
+
+                <div class="work">
+                    <img src="images/snake.jpeg">
+                    <div class="layer">
+                        <h3>SNAKE GAME</h3>
+                        <p>Snake game is a computer action game, whose goal is to control a stake to move and collect food in a map. It has been around since the earliest days of home computing and has re-emerged in recent years on mobile phon</p>
+                        <a href="https://snakemaniagaming.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+ 				<div class="work">
+ 					<img src="images/chrome.jpg">
+ 					<div class="layer">
+ 						<h3>CHROME EXTENSION</h3>
+ 						<p>
+                            "SOCIAL MEDIA BLOCKER"..Save your time, protect yourself and improve your browsing experience with absolutely free site blocker. This extension allows you to block certain websites. It pretty useful if you want to protect your children or just if you want to shield yourself from inappropriate content. </p>
+
+                            <a href="file:///Users/riteshsingh/Desktop/portfolio/rits.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+</p>
+ 						
+ 					</div>
+ 				</div>
+ 			</div>
+
+ 			
+ 		</div>
+ 	</div>
+
+ 	<!----------CONTACT------------->
+
+ 	<div id="contact">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="contact-left">
+ 					<h1 class="sub-title">Contact Me</h1>
+ 					<p><i class="fa-solid fa-envelope"><a href="riteshsingh.cst1@gmail.com" style="text-decoration:none" target="_blank"></i>riteshsingh.cst1@gmail.com</p></a>
+ 					<p><i class="fa-solid fa-square-phone"><a href="tel:+91 9233333382" style="text-decoration: none;"></i> +91 9233333382</p></a>
+ 					<div class="social-icons">
+ 					<a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+ 					<a href="https://twitter.com/the_real_rits" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+ 					<a href="https://www.instagram.com/its.rits_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+ 					<a href="https://www.linkedin.com/in/riteshsinghit/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+ 				</div>
+ 				
+ 			</div>
+ 				<div class="contact-right">
+ 					<form method="post" name="submit-to-google-sheet">
+ 						<input type="text" name="Name" placeholder="Your Name" required>
+ 						<input type="email" name="Email" placeholder="Your Email" required>
+ 						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+ 						<button type="submit" class="btn btn2">Submit</button>
+ 					</form>
+                    <span id="msg"></span>
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<div class="copyright">
+ 			<p>Copyright@RiteshSingh Made With <i class="fa-solid fa-heart"></i></p>
+
+ 		</div>
+ 	</div>
+
+ 	<script>
+ 		
+ 		var tablinks = document.getElementsByClassName("tab-links");
+ 		var tabcontents = document.getElementsByClassName("tab-contents");
+
+ 		function opentab(tabname) {
+ 			for (tablink of tablinks) {
+ 				tablink.classList.remove("active-link");
+ 			}
+
+ 			for (tabcontent of tabcontents) {
+ 				tabcontent.classList.remove("active-tab");
+ 			}
+ 			event.currentTarget.classList.add("active-link");
+ 			document.getElementById(tabname).classList.add("active-tab");
+ 		}
+ 		
+ 	</script>
+
+    <script>
+        
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzRDmkGrbtcgoHbN_9bAKFB6Xw9dbeEF8E0MYXVNmn1QQ4pMYtxtyXhmSrJA-OxpstNpQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  const msg = document.getElementById("msg")
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+
+        msg.innerHTML = "Meassage Sent Successfully"
+
+        setTimeout(function(){ 
+            msg.innerHTML = ""
+        },5000 )
+        form.reset()
+      })
+      .catch(error => console.error('Error!',error.message))
+  })
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $(header).ripples({
+
+            dropRadius: 10,
+            perturbance: 0.09,
+  
+        });
+    })
+</script>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+
+
+ let animat = new Typed(".auto-type",{
+
+    strings: ["Web Developer", "Software Developer","Java Developer"],
+
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+})
+
+</script>
+
+
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
